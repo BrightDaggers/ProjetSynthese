@@ -34,10 +34,17 @@
             android:layout_below="@id/startButton"/>
 
         <Button
-            android:id="@+id/testButton"
+        android:id="@+id/testButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:layout_below="@id/configButton"/>
+
+        <Button
+            android:id="@+id/photoButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Test"
-            android:layout_below="@id/configButton"/>
+            android:text="Photo"
+            android:layout_below="@id/testButton"/>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
