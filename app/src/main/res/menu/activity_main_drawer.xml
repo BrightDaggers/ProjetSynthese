@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/filter0"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Original" />
+        <item
+            android:id="@+id/filter1"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Convolution3x3" />
+        <item
+            android:id="@+id/filter2"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Test5x5" />
+        <item
+            android:id="@+id/filter3"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Test Couleur" />
+    </group>
+    <item android:title="JAVA"></item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/filter21"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Négatif" />
+        <item
+            android:id="@+id/filter22"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Niveau de gris" />
+        <item
+            android:id="@+id/filter23"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Couleur" />
+        <item
+            android:id="@+id/filter24"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Contraste" />
+
+        <item
+            android:id="@+id/filter25"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Luminosité" />
+        <item
+            android:id="@+id/filter26"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Flou gaussien" />
+        <item
+            android:id="@+id/filter27"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Passe-Haut Large" />
+        <item
+            android:id="@+id/filter28"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Passe-Haut" />
+    </group>
+</menu>
